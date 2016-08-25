@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+    <head>
+    </head>
+    <body>
+		<div class="container-fluid" id="wrapBody">
+			<div class="row" id="wrapContents">
+				<div class="col-sm-12" id="wrapContHead">
+					<p><h3><%= title %></h3></p>
+					<p><h4>新規登録や更新があった書籍です。&nbsp※30日以内に更新があったものには!が表示されます。</h4></p>
+				</div>
+				<div class="col-sm-12" id="wrapMain">
+					<div class="top-selection">
+						<dl>
+							<dt>
+								<!-- 貸出状態 -->
+								<a class="modal-open" id=<?php echo $i; ?>>
+									<img class="<?php echo $thumclass; ?>" src="../images/NoImage.jpg" />
+								</a>
+								<!-- 更新状況 -->
+								<br><img class="newflag" src="../image/D-0000_test/new.gif" style=""/>
+								<small>貸出可</small>
+								</dt>
+							<dd>
+								<!-- タイトル -->
+								<a class="modal-open">テスト</a>&nbsp
+								<small>2016/07/01</small>
+							</dd>
+						</dl>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
