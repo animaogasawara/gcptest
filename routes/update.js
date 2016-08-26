@@ -9,7 +9,6 @@ router.get('/', function(req, res, next) {
 module.exports = router;
 
 // mongoDBにUPDATE
-/*
 var mongo = require('mongodb');
 var db = new mongo.Db('test', new mongo.Server('10.140.0.2', 27017, {}), {});
 
@@ -27,4 +26,3 @@ db.open(function() {
         });
     });
 });
-*/
